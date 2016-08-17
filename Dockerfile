@@ -1,5 +1,5 @@
-FROM ruby:2.2
-MAINTAINER Maxwell Health
+FROM ruby:2.3.1
+MAINTAINER Andre Lahs
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
